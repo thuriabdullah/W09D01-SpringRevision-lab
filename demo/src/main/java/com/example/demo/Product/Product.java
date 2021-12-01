@@ -1,38 +1,38 @@
 package com.example.demo.Product;
 
 public class Product {
-    private Long ProductId;
-    private String ProductName;
-    private Double Price;
+    private Long productId;
+    private String productName;
+    private Double price;
 public Product(){}
     public Product(Long productId, String productName, Double price) {
-        ProductId = productId;
-        ProductName = productName;
-        Price = price;
+        productId = productId;
+        productName = productName;
+        price = price;
     }
 
     public Long getProductId() {
-        return ProductId;
+        return productId;
     }
 
     public void setProductId(Long productId) {
-        ProductId = productId;
+        productId = productId;
     }
 
     public String getProductName() {
-        return ProductName;
+        return productName;
     }
 
     public void setProductName(String productName) {
-        ProductName = productName;
+        productName = productName;
     }
 
     public Double getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(Double price) {
-        Price = price;
+        price = price;
     }
 }
 
